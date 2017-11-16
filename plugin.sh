@@ -10,3 +10,4 @@ on_uninstall() {
 on_update() {
         echo "swarm-plugin-test: on_update"
 }
+
