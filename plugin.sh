@@ -6,6 +6,10 @@ on_uninstall() {
         log_debug "swarm-remote-test-plugin: on_uninstall (${*})"
 }
 
+on_reinstall() {
+        log_debug "swarm-remote-test-plugin: on_reinstall (${*})"
+}
+
 on_update() {
         log_debug "swarm-remote-test-plugin: on_update (${*})"
 }
