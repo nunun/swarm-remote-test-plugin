@@ -10,6 +10,14 @@ on_reinstall() {
         log_debug "swarm-remote-test-plugin: on_reinstall (${*})"
 }
 
+on_terraform() {
+        log_debug "swarm-remote-test-plugin: on_terraform (${*})"
+}
+
+on_unterraform() {
+        log_debug "swarm-remote-test-plugin: on_unterraform (${*})"
+}
+
 on_update() {
         log_debug "swarm-remote-test-plugin: on_update (${*})"
 }
