@@ -18,6 +18,6 @@ on_compose() {
         log_debug "swarm-remote-test-plugin: on_compose (${*})"
 }
 
-on_system_message() {
-        log_debug "swarm-remote-test-plugin: on_system_message (${*})"
+on_operation_message() {
+        log_debug "swarm-remote-test-plugin: on_operation_message (${*})"
 }
